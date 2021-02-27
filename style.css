@@ -1,7 +1,8 @@
 body{
-    background-image: url(./images/backgrund.jpg);
+    background-image: url(./images/backgrund_2.jpg);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-attachment: fixed;
+    background-position: center;
     color: rgb(247, 74, 8);
 }
 
@@ -12,19 +13,23 @@ header{
     background-size: 100%;
 }
 
-ul{
+#menu ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
-li{
+#menu li{
     float: left;
     background-color: rgb(20,20,15);
     border-radius: 5px;
     font-size: 15px;
     margin: 5px;
+}
+
+body div{
+    background: rgba(0, 0, 0, 0.2);
 }
 
 li a{
@@ -39,4 +44,35 @@ li a:hover{
     background-color: rgb(247, 74, 8);
     color: rgb(20,20,15);
     border-radius: 5px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.tartalom{
+    padding: 40px 40px;
+}
+
+.jatek ul{
+    list-style-type: none;
+    font-size: 30px;
+}
+.jatek li{
+    margin: 15px;
+}
+
+.jatek img{
+    padding-left: 50px;
+}
+
+.bek_formazas{
+    padding: 30px 30px;
+}
+
+.kevlar{
+    float: left;
+    height: 50%;
+    width: 50%;
+
 }
