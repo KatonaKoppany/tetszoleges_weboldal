@@ -18,7 +18,7 @@ nav{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .menu li{
@@ -46,10 +46,14 @@ nav{
     border-radius: 5px;
 }
 
+.legord li{
+    right: 40px;
+    width: 130px;
+}
+
 .legord{
     position: absolute;
     display: none;
-    width: 130px;
 }
 
 .legord a{
@@ -67,7 +71,7 @@ nav{
 
 @media only screen and (max-width:800px){
     .legord{
-        top: 2%;
-        left: 93%;
+        top:1%;
+        left: 100%;
     }
 }
