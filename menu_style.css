@@ -34,9 +34,11 @@ nav{
 
 .menu a {
     text-decoration: none;
+    background-color: rgb(247, 74, 8);
     color: black;
     display: block;
     padding: 10px 1.5rem;
+    border-radius: 5px;
     transition: background-color .22s ease, .22s ease;
 }
 
@@ -46,14 +48,10 @@ nav{
     border-radius: 5px;
 }
 
-.legord li{
-    right: 40px;
-    width: 130px;
-}
-
 .legord{
     position: absolute;
     display: none;
+    border-radius: 5px;
 }
 
 .legord a{
@@ -73,6 +71,7 @@ nav{
     .legord{
         top:1%;
         left: 100%;
+        width: 130px;
     }
 
     .menu{
