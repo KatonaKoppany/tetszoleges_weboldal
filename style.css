@@ -12,6 +12,8 @@ footer{
     text-align: center;
     padding: 3px;
     background-color: rgba(0, 0, 0, 0.2);
+    clear: both;
+    
 }
 
 footer a{
@@ -44,7 +46,7 @@ h3{
 .tartalom{
     padding-left: 40px;
     padding-right: 40px;
-    padding-bottom: 15%;
+    padding-bottom: 30%;
     border-radius: 20px;
     margin: 0 auto;
     max-width: 1000px;
@@ -94,6 +96,7 @@ h3{
 .black_tusk p{
     padding-bottom: 100px;
 }
+
 
 .kevlar{
     width: 100%;
