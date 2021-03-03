@@ -6,12 +6,6 @@ body{
     color: rgb(247, 74, 8);
 }
 
-header{
-    background-image: url(./images/header_img.jpg);
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
 
 footer{
     border-top: rgb(247, 74, 8) solid 1px;
@@ -30,49 +24,9 @@ table{
     border: rgb(247, 74, 8) solid 1px;
     background-color: rgba(100, 0, 0, 0.2);
 }
+
 table th{
     background-color:black;
-}
-
-#navbar ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-#navbar li{
-    float: left;
-    background-color: rgb(247, 74, 8);
-    border-radius: 5px;
-    font-size: 15px;
-    margin: 5px;
-}
-
-.tartalom{
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 15%;
-    border-radius: 20px;
-    margin: 0 auto;
-    max-width: 1000px;
-    background: rgba(0, 0, 0, 0.2);
-}
-
-
-li a{
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-li a:hover{
-    background-color: black;
-    color: rgb(247, 74, 8);
-    border-radius: 5px;
 }
 
 p{
@@ -85,6 +39,16 @@ h1{
 
 h3{
     text-decoration: underline;
+}
+
+.tartalom{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 15%;
+    border-radius: 20px;
+    margin: 0 auto;
+    max-width: 1000px;
+    background: rgba(0, 0, 0, 0.2);
 }
 
 .jatek ul{
@@ -141,7 +105,7 @@ h3{
 }
 
 
-@media only screen and (max-width:600px){
+@media only screen and (max-width:800px){
     li{
         width: 100%;
         height: auto;
