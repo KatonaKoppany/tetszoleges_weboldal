@@ -97,7 +97,6 @@ h3{
     padding-bottom: 100px;
 }
 
-
 .kevlar{
     width: 100%;
     text-align: center;
@@ -120,6 +119,13 @@ h3{
         width: 100%;
         height: auto;
         position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .kevlar td{
+        display: block;
+        text-align: center;
         margin-left: auto;
         margin-right: auto;
     }
