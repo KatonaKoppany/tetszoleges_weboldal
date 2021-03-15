@@ -93,7 +93,7 @@ h3{
 }
 
 .shoot_gif{
-    float:right;
+ margin: 0 auto;
 }
 
 .sidebar{
@@ -122,9 +122,19 @@ h3{
 }
 
 .container .tartalom{
-    max-width: 1000px;
+    max-width: 1300px;
 
     border: aliceblue 1px solid;
+}
+
+.tartalomFoold{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10%;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
 @media only screen and (max-width:800px){
